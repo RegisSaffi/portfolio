@@ -239,7 +239,6 @@ var projects = [
       "Python",
       "Flask",
       "NodeJS",
-      "Firestore",
       "Cloud functions",
       "Dialogflow",
       "Xcode",
@@ -272,7 +271,7 @@ var projects = [
     technologies: [
       "Flutter",
       "Dart",
-      "Firebase FCM",
+      "Push notifications",
       "Xcode",
       "Android Studio",
     ],
@@ -300,7 +299,7 @@ var projects = [
           "https://play.google.com/store/apps/details?id=com.sekalive.sekalive",
         appstore: "https://apps.apple.com/rw/app/sekalive/id1547233783",
       },
-    technologies: ["Flutter", "Dart", "Youtube", "Xcode", "Android Studio"],
+    technologies: ["Flutter", "Dart", "Youtube API v3", "Xcode", "Android Studio"],
     screens: {
       type: "mobile",
       light: {
@@ -320,7 +319,7 @@ var projects = [
     description:
       "This is e-store mobile application where you can buy stuff, it has everything from products display, carting, order tracking and delivery., It is available for both android and iOS.",
     platforms: ["android", "ios"],
-    links: { playstore: "", appstore: "" },
+    links: { playstore: "https://play.google.com/store/apps/details?id=rw.isiine.isiine&hl=en_US&gl=US", appstore: "https://apps.apple.com/rw/app/isiine/id1541542296" },
     technologies: ["Flutter", "Dart", "Xcode", "Android Studio"],
     screens: {
       type: "mobile",
@@ -336,22 +335,19 @@ var projects = [
   },
 
   {
-    name: "Kigali Arena",
-    title: "Events tickets booking app for Kigali Arena",
+    name: "TiCQet",
+    title: "An official platform for 2021 BASKETBALL AFRICA LEAGUE ticketing platform",
     description:
-      "This is events management application for Kigali Arena sports venue, It is available for Android,iOS and experimental web version, it includes everything from end user to admin for events management, I created both the mobile application frontend UI the backend, databases and payments.",
+      "This is events management application for Kigali Arena sports venue, It is available for Android,iOS and experimental web version, it includes everything from end user to admin for events management, I created both the mobile application frontend UI the backend, databases and payments integrations.",
     platforms: ["android", "ios"],
     links: {
       playstore:
         "https://play.google.com/store/apps/details?id=com.centrika.kigaliarena",
-      appstore: "",
+      appstore: "https://apps.apple.com/us/app/ticqet/id1558656905",
     },
     technologies: [
       "Flutter",
       "Dart",
-      "Flutter web",
-      "Firebase auth",
-      "Firestore",
       "Cloud functions",
       "NodeJS",
       "Xcode",
@@ -360,12 +356,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/arena.png",
-        tiny: "/images/projects/tiny/arena.png",
+        normal: "/images/projects/ticqet.png",
+        tiny: "/images/projects/tiny/ticqet.png",
       },
       dark: {
-        normal: "/images/projects/arena_dark.png",
-        tiny: "/images/projects/tiny/arena_dark.png",
+        normal: "/images/projects/ticqet_dark.png",
+        tiny: "/images/projects/tiny/ticqet_dark.png",
       },
     },
   },
@@ -376,7 +372,7 @@ var projects = [
     description:
       "This is a mobile application for the most popular news publisher in Rwanda, It shows news in three(3) languages and it is available for both Android and iOS.",
     platforms: ["android", "ios"],
-    links: { playstore: "", appstore: "" },
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.igihe.igihe&hl=en_SG&gl=US", appstore: "https://apps.apple.com/ca/app/igihe/id1584946074" },
     technologies: ["Flutter", "Dart", "Xcode", "Android Studio"],
     screens: {
       type: "mobile",
@@ -387,6 +383,27 @@ var projects = [
       dark: {
         normal: "/images/projects/igihe_dark.png",
         tiny: "/images/projects/tiny/igihe_dark.png",
+      },
+    },
+  },
+
+  {
+    name: "Gray Transporters",
+    title: "Ride and package delivery app",
+    description:
+      "This is a mobile application for moto ride or package delivery and it is available for both Android and iOS.",
+    platforms: ["android", "ios"],
+    links: { playstore: "https://play.google.com/store/apps/details?id=com.broadendigital.graytransporter&hl=en_US&gl=US", appstore: "https://apps.apple.com/vn/app/gray-transporters/id1578106296" },
+    technologies: ["Flutter", "Google maps","Dart", "Xcode", "Android Studio"],
+    screens: {
+      type: "mobile",
+      light: {
+        normal: "/images/projects/gray.png",
+        tiny: "/images/projects/tiny/gray.png",
+      },
+      dark: {
+        normal: "/images/projects/gray_dark.png",
+        tiny: "/images/projects/tiny/gray_dark.png",
       },
     },
   },
@@ -404,8 +421,7 @@ var projects = [
       "Java",
       "XML",
       "Firebase FCM",
-      "Firebaase auth",
-      "Firebase database",
+      "Firebase",
       "Cloud functions",
       "NodeJS",
       "Android Studio",
@@ -429,18 +445,18 @@ var webprojects=[
   {
     name: "Baza web",
     title: "The web implementation of my personal assiatant app Baza",
-    description: "Screenshots are coming soon",
+    description: "This is an experimental web application I created and still maintain as I get time, I created this when I started testing Flutter Web, and it shares the same codebase with the mobile app as well.",
     platforms: ["web"],
-    links: { web: "" },
-    technologies: ["Flutter", "Dart", "AnguralDart","Firestore","Flutter web"],
+    links: { web: "https://getbaza.web.app" },
+    technologies: ["Flutter", "Dart", "AnguralDart","Flutter web","Python","DialogFlow"],
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/window.svg",
+        normal: "/images/projects/baza_web.svg",
         tiny: "/images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/window_dark.svg",
+        normal: "/images/projects/baza_web_dark.svg",
         tiny: "/images/projects/window_dark.svg",
       },
     },
@@ -448,19 +464,19 @@ var webprojects=[
   {
     name: "SafariBus",
     title: "A transportation management platform in Rwanda",
-    description: "Screenshots are coming soon",
+    description: "More information are coming soon",
     platforms: ["web"],
-    links: { web: "" },
+    links: { web: "https://safaribus.rw" },
 
     technologies: ["ReactJS", "JavaScript", "Material-UI"],
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/window.svg",
+        normal: "/images/projects/safaribus_web.svg",
         tiny: "/images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/window_dark.svg",
+        normal: "/images/projects/safaribus_web_dark.svg",
         tiny: "/images/projects/window_dark.svg",
       },
     },
@@ -468,27 +484,27 @@ var webprojects=[
   {
     name: "SafariBus booking",
     title: "Online bus tickets booking platform in Rwanda",
-    description: "Screenshots are coming soon",
+    description: "More information are coming soon",
     platforms: ["web"],
-    links: { web: "" },
+    links: { web: "https://safaribus.rw" },
 
     technologies: ["ReactJS", "JavaScript", "Material-UI"],
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/window.svg",
+        normal: "/images/projects/safaribusb_web.svg",
         tiny: "/images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/window_dark.svg",
-        tiny: "/images/projects/window_dark.svg",
+        normal: "/images/projects/safaribusb_web_dark.svg",
+        tiny: "/images/projects/window.svg_dark",
       },
     },
   },
   {
     name: "Centrika website",
     title: "Centrika company portfolio website",
-    description: "Screenshots are coming soon",
+    description: "More information are coming soon",
     platforms: ["web"],
     links: { web: "" },
 
@@ -496,31 +512,31 @@ var webprojects=[
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/window.svg",
+        normal: "/images/projects/centrika_web.svg",
         tiny: "/images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/window_dark.svg",
+        normal: "/images/projects/centrika_web_dark.svg",
         tiny: "/images/projects/window_dark.svg",
       },
     },
   },
   {
-    name: "Kigali Arena web",
-    title: "A web implementation of Kigali Arena ticketing platform",
-    description: "Screenshots are coming soon",
-    technologies: ["Flutter", "Dart", "AnguralDart","Firestore","Flutter web"],
+    name: "TiCQet Web",
+    title: "An official platform for 2021 BASKETBALL AFRICA LEAGUE ticketing platform",
+    description: "The web implementation of TiCQet platform, it was used as official platform for 2021 BASKETBAL AFRICA LEAGUE 2021 in Rwanda, and both with the mobile apps (Android and iOS) it managed to serve tickets for more than 15k people attending basketball games at Kigali Arena.",
+    technologies: ["Flutter", "Dart", "AnguralDart","Flutter web","NodeJS","PDFKit"],
     platforms: ["web"],
-    links: { web: "" },
+    links: { web: "ticqet.rw" },
 
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/window.svg",
+        normal: "/images/projects/ticqet_web.svg",
         tiny: "/images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/window_dark.svg",
+        normal: "/images/projects/ticqet_web_dark.svg",
         tiny: "/images/projects/window_dark.svg",
       },
     },
@@ -528,18 +544,18 @@ var webprojects=[
   {
     name: "AnyPolls",
     title: "A hobby voting platform that i created for no reason",
-    description: "Screenshots are coming soon",
+    description: "I created this as a challenge and I thought i would share, it is a voting app where anyone can vote and people who signed in can create polls and add poll options to other people's polls.",
     technologies: ["ReactJS", "NodeJS", "JavaScript", "Lodash", "Material-UI"],
     platforms: ["web"],
-    links: { web: "" },
+    links: { web: "https://anypolls.herokuapp.com" },
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/window.svg",
+        normal: "/images/projects/anypolls_web.svg",
         tiny: "/images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/window_dark.svg",
+        normal: "/images/projects/anypolls_web_dark.svg",
         tiny: "/images/projects/window_dark.svg",
       },
     },
@@ -672,7 +688,7 @@ export default function LandingHome(props) {
     } else if (message.value.length < 20) {
       setMessage({
         ...message,
-        error: "Come on! Don't be boring,write something... not that one! ",
+        error: "Come on! Don't be boring, write something... not that one! ",
       });
     } else {
       sendQuery();
@@ -845,7 +861,7 @@ export default function LandingHome(props) {
             }}
             disabled={links.web == ""}
           >
-            Web
+            Web link
           </Button>
         );
     }
@@ -1767,7 +1783,7 @@ export default function LandingHome(props) {
                         placement="right"
                         arrow
                       >
-                        <Box width={1} height={1}>
+                        <Box width={1} height={250}>
                           <ProgressiveImage
                             key={theme.palette.type + cat}
                             preview={
@@ -1783,11 +1799,12 @@ export default function LandingHome(props) {
                             transitionTime={900}
                             transitionFunction="ease"
                             render={(src, style) => (
-                              <Box height={250} width={1} style={{backgroundImage:'url(\''+src+'\')',backgroundSize:'100%',backgroundRepeat:'no-repeat'}}>
+                              <Box height={250} borderRadius={7} width={1} bgColor="primary.main" style={{backgroundImage:'url(\''+src+'\')',backgroundSize:'100%',backgroundRepeat:'no-repeat'}}>
                             
                               </Box>
                             )}
                           />
+                      
                         </Box>
                       </Tooltip>
                     </Box>

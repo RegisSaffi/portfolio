@@ -14,7 +14,7 @@ require("typeface-lato");
 function App() {
   const [theme, setTheme] =useState(0);
   const [reload, showReload] =useState(false);
-  const [, setUpdate] =useState(0);
+  const [update, setUpdate] =useState(0);
 
  useEffect(() => {
     const t = window.localStorage.getItem("theme");
