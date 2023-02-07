@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Developer portfolio for Regis saffi",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "client/*"
+    ]
+  },
+  "keywords": [
+    "Portfolio",
+    "resume",
+    "blog"
+  ],
+  "author": "RegisSaffi",
+  "license": "ISC",
+  "engines": {
+    "node": "10.19"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
