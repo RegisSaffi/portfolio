@@ -247,12 +247,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/baza.png",
-        tiny: "/images/projects/tiny/baza.png",
+        normal: "./images/projects/baza.png",
+        tiny: "./images/projects/tiny/baza.png",
       },
       dark: {
-        normal: "/images/projects/baza_dark.png",
-        tiny: "/images/projects/tiny/baza_dark.png",
+        normal: "./images/projects/baza_dark.png",
+        tiny: "./images/projects/tiny/baza_dark.png",
       },
     },
   },
@@ -278,12 +278,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/bohoka.png",
-        tiny: "/images/projects/tiny/bohoka.png",
+        normal: "./images/projects/bohoka.png",
+        tiny: "./images/projects/tiny/bohoka.png",
       },
       dark: {
-        normal: "/images/projects/bohoka_dark.png",
-        tiny: "/images/projects/tiny/bohoka_dark.png",
+        normal: "./images/projects/bohoka_dark.png",
+        tiny: "./images/projects/tiny/bohoka_dark.png",
       },
     },
   },
@@ -303,12 +303,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/seka.png",
-        tiny: "/images/projects/tiny/seka.png",
+        normal: "./images/projects/seka.png",
+        tiny: "./images/projects/tiny/seka.png",
       },
       dark: {
-        normal: "/images/projects/seka_dark.png",
-        tiny: "/images/projects/tiny/seka_dark.png",
+        normal: "./images/projects/seka_dark.png",
+        tiny: "./images/projects/tiny/seka_dark.png",
       },
     },
   },
@@ -324,12 +324,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/isiine.png",
-        tiny: "/images/projects/tiny/isiine.png",
+        normal: "./images/projects/isiine.png",
+        tiny: "./images/projects/tiny/isiine.png",
       },
       dark: {
-        normal: "/images/projects/isiine_dark.png",
-        tiny: "/images/projects/tiny/isiine_dark.png",
+        normal: "./images/projects/isiine_dark.png",
+        tiny: "./images/projects/tiny/isiine_dark.png",
       },
     },
   },
@@ -356,12 +356,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/ticqet.png",
-        tiny: "/images/projects/tiny/ticqet.png",
+        normal: "./images/projects/ticqet.png",
+        tiny: "./images/projects/tiny/ticqet.png",
       },
       dark: {
-        normal: "/images/projects/ticqet_dark.png",
-        tiny: "/images/projects/tiny/ticqet_dark.png",
+        normal: "./images/projects/ticqet_dark.png",
+        tiny: "./images/projects/tiny/ticqet_dark.png",
       },
     },
   },
@@ -377,12 +377,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/igihe.png",
-        tiny: "/images/projects/tiny/igihe.png",
+        normal: "./images/projects/igihe.png",
+        tiny: "./images/projects/tiny/igihe.png",
       },
       dark: {
-        normal: "/images/projects/igihe_dark.png",
-        tiny: "/images/projects/tiny/igihe_dark.png",
+        normal: "./images/projects/igihe_dark.png",
+        tiny: "./images/projects/tiny/igihe_dark.png",
       },
     },
   },
@@ -398,12 +398,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/gray.png",
-        tiny: "/images/projects/tiny/gray.png",
+        normal: "./images/projects/gray.png",
+        tiny: "./images/projects/tiny/gray.png",
       },
       dark: {
-        normal: "/images/projects/gray_dark.png",
-        tiny: "/images/projects/tiny/gray_dark.png",
+        normal: "./images/projects/gray_dark.png",
+        tiny: "./images/projects/tiny/gray_dark.png",
       },
     },
   },
@@ -429,12 +429,12 @@ var projects = [
     screens: {
       type: "mobile",
       light: {
-        normal: "/images/projects/linkapp.png",
-        tiny: "/images/projects/tiny/linkapp.png",
+        normal: "./images/projects/linkapp.png",
+        tiny: "./images/projects/tiny/linkapp.png",
       },
       dark: {
-        normal: "/images/projects/linkapp_dark.png",
-        tiny: "/images/projects/tiny/linkapp_dark.png",
+        normal: "./images/projects/linkapp_dark.png",
+        tiny: "./images/projects/tiny/linkapp_dark.png",
       },
     },
   },
@@ -452,12 +452,12 @@ var webprojects=[
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/baza_web.svg",
-        tiny: "/images/projects/window.svg",
+        normal: "./images/projects/baza_web.svg",
+        tiny: "./images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/baza_web_dark.svg",
-        tiny: "/images/projects/window_dark.svg",
+        normal: "./images/projects/baza_web_dark.svg",
+        tiny: "./images/projects/window_dark.svg",
       },
     },
   },
@@ -472,12 +472,12 @@ var webprojects=[
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/safaribus_web.svg",
-        tiny: "/images/projects/window.svg",
+        normal: "./images/projects/safaribus_web.svg",
+        tiny: "./images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/safaribus_web_dark.svg",
-        tiny: "/images/projects/window_dark.svg",
+        normal: "./images/projects/safaribus_web_dark.svg",
+        tiny: "./images/projects/window_dark.svg",
       },
     },
   },
@@ -492,12 +492,12 @@ var webprojects=[
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/safaribusb_web.svg",
-        tiny: "/images/projects/window.svg",
+        normal: "./images/projects/safaribusb_web.svg",
+        tiny: "./images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/safaribusb_web_dark.svg",
-        tiny: "/images/projects/window.svg_dark",
+        normal: "./images/projects/safaribusb_web_dark.svg",
+        tiny: "./images/projects/window.svg_dark",
       },
     },
   },
@@ -512,12 +512,12 @@ var webprojects=[
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/centrika_web.svg",
-        tiny: "/images/projects/window.svg",
+        normal: "./images/projects/centrika_web.svg",
+        tiny: "./images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/centrika_web_dark.svg",
-        tiny: "/images/projects/window_dark.svg",
+        normal: "./images/projects/centrika_web_dark.svg",
+        tiny: "./images/projects/window_dark.svg",
       },
     },
   },
@@ -532,12 +532,12 @@ var webprojects=[
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/ticqet_web.svg",
-        tiny: "/images/projects/window.svg",
+        normal: "./images/projects/ticqet_web.svg",
+        tiny: "./images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/ticqet_web_dark.svg",
-        tiny: "/images/projects/window_dark.svg",
+        normal: "./images/projects/ticqet_web_dark.svg",
+        tiny: "./images/projects/window_dark.svg",
       },
     },
   },
@@ -551,12 +551,12 @@ var webprojects=[
     screens: {
       type: "web",
       light: {
-        normal: "/images/projects/anypolls_web.svg",
-        tiny: "/images/projects/window.svg",
+        normal: "./images/projects/anypolls_web.svg",
+        tiny: "./images/projects/window.svg",
       },
       dark: {
-        normal: "/images/projects/anypolls_web_dark.svg",
-        tiny: "/images/projects/window_dark.svg",
+        normal: "./images/projects/anypolls_web_dark.svg",
+        tiny: "./images/projects/window_dark.svg",
       },
     },
   },
